@@ -5,15 +5,15 @@
 # stub: resque-status 0.4.3 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "resque-status"
-  s.version = "0.4.3"
+  s.name = %q{resque-status}
+  s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Aaron Quint"]
-  s.date = "2014-05-12"
-  s.description = "resque-status is an extension to the resque queue system that provides simple trackable jobs. It provides a Resque::Plugins::Status::Hash class which can set/get the statuses of jobs and a Resque::Plugins::Status class that when included provides easily trackable/killable jobs."
-  s.email = "aaron@quirkey.com"
+  s.date = %q{2011-02-09}
+  s.description = %q{resque-status is an extension to the resque queue system that provides simple trackable jobs. It provides a Resque::Status class which can set/get the statuses of jobs and a Resque::JobWithStatus class that when subclassed provides easily trackable/killable jobs.}
+  s.email = %q{aaron@quirkey.com}
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
