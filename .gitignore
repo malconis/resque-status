@@ -13,6 +13,12 @@ tmtags
 ## VIM
 *.swp
 
+## IDEA
+.idea
+
+## RBENV
+.ruby-version
+
 ## PROJECT::GENERAL
 coverage
 rdoc
