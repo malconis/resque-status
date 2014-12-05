@@ -8,6 +8,8 @@ resque-status provides a set of simple classes that extend resque's default
 functionality (with 0% monkey patching) to give apps a way to track specific
 job instances and their status. It achieves this by giving job instances UUID's
 and allowing the job instances to report their status from within their iterations.
+This fork removes the 'Clear Statuses' button from the Status page as we did not want
+users to accidentally clear the queue.
 
 == Installation
 
